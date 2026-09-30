@@ -811,9 +811,9 @@ a {
 } 
  
 .project-doll-image { 
-    width: 400px;
-    height: 400px;
+    width: 700px;
+    height: 700px;
     object-fit: contain;
     display: block;
-    transform: translateX(-60px);
+    transform: translateX(-80px,-200px);
 }
