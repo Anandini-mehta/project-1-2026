@@ -235,60 +235,81 @@ a {
 
 
 /* =========================
-   SIMPLE LONG HAIR
-   ========================= */
+   LONG BROWN HAIR
+========================= */
 
 .hair-back {
     position: absolute;
-    width: 168px;
+    width: 165px;
     height: 320px;
-    left: 41px;
-    top: 30px;
+    left: 43px;
+    top: 28px;
     background: #6b4636;
     border-radius: 50% 50% 38% 38%;
     z-index: 0;
 }
 
-/* simple forehead fringe */
 
 /* =========================
-   SIMPLE FOREHEAD BANGS
-   ========================= */
+   FOREHEAD FRINGE
+========================= */
 
 .bang {
     position: absolute;
-    width: 100px;
-    height: 45px;
-
-    /* centered over the head */
-    left: 75px;
-    top: 52px;
-
     background: #6b4636;
     z-index: 5;
-
-    /* soft curved fringe shape */
-    clip-path: polygon(
-        0% 0%,
-        10% 15%,
-        22% 30%,
-        35% 38%,
-        48% 42%,
-        60% 38%,
-        73% 30%,
-        86% 15%,
-        100% 0%,
-        92% 55%,
-        82% 70%,
-        70% 58%,
-        58% 82%,
-        46% 62%,
-        34% 82%,
-        22% 58%,
-        10% 70%
-    );
 }
-/* head */
+
+/* left side of fringe */
+
+.bang-left {
+    width: 38px;
+    height: 58px;
+    left: 68px;
+    top: 52px;
+
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        88% 18%,
+        78% 38%,
+        62% 58%,
+        42% 78%,
+        18% 100%,
+        28% 62%,
+        18% 32%
+    );
+
+    transform: rotate(-7deg);
+}
+
+/* right side of fringe */
+
+.bang-right {
+    width: 38px;
+    height: 58px;
+    left: 144px;
+    top: 52px;
+
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        82% 32%,
+        72% 62%,
+        82% 100%,
+        58% 78%,
+        38% 58%,
+        22% 38%,
+        12% 18%
+    );
+
+    transform: rotate(7deg);
+}
+
+
+/* =========================
+   HEAD
+========================= */
 
 .head {
     position: absolute;
@@ -301,11 +322,21 @@ a {
     overflow: hidden;
 }
 
+
+/* =========================
+   FACE
+========================= */
+
 .face {
     position: absolute;
     width: 100%;
     height: 100%;
 }
+
+
+/* =========================
+   EYES
+========================= */
 
 .eye {
     position: absolute;
@@ -323,35 +354,46 @@ a {
 
 .right-eye {
     right: 32px;
-} 
+}
+
+
+/* =========================
+   SOFT ROUNDED GLASSES
+========================= */
 
 .glasses {
     position: absolute;
     width: 42px;
-    height: 31px;
-    border: 2px solid #302b2b;
-    border-radius: 50%;
-    top: 60px;
+    height: 30px;
+    border: 2px solid #4a342d;
+    border-radius: 12px;
+    top: 59px;
     z-index: 7;
+    background: transparent;
 }
 
 .left-glasses {
-    left: 15px;
+    left: 13px;
 }
 
 .right-glasses {
-    right: 15px;
+    right: 13px;
 }
 
 .glasses-bridge {
     position: absolute;
-    width: 14px;
+    width: 15px;
     height: 2px;
-    background: #302b2b;
-    top: 74px;
+    background: #4a342d;
+    top: 73px;
     left: 55px;
     z-index: 7;
 }
+
+
+/* =========================
+   NOSE
+========================= */
 
 .nose {
     position: absolute;
@@ -362,6 +404,11 @@ a {
     left: 60px;
 }
 
+
+/* =========================
+   MOUTH
+========================= */
+
 .mouth {
     position: absolute;
     width: 13px;
@@ -371,6 +418,11 @@ a {
     top: 100px;
     left: 56px;
 }
+
+
+/* =========================
+   BLUSH
+========================= */
 
 .blush {
     position: absolute;
@@ -391,7 +443,9 @@ a {
 }
 
 
-/* neck */
+/* =========================
+   NECK
+========================= */
 
 .neck {
     position: absolute;
@@ -401,7 +455,6 @@ a {
     left: 108px;
     top: 175px;
 }
-
 
 /* body */
 
