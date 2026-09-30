@@ -251,26 +251,41 @@ a {
 
 /* simple forehead fringe */
 
+/* =========================
+   SIMPLE FOREHEAD BANGS
+   ========================= */
+
 .bang {
     position: absolute;
     width: 100px;
-    height: 42px;
+    height: 45px;
+
+    /* centered over the head */
     left: 75px;
-    top: 43px;
+    top: 52px;
+
     background: #6b4636;
     z-index: 5;
 
+    /* soft curved fringe shape */
     clip-path: polygon(
-        0 0,
-        8% 45%,
-        18% 65%,
-        30% 48%,
-        42% 78%,
-        55% 52%,
-        68% 76%,
-        80% 48%,
-        92% 62%,
-        100% 0
+        0% 0%,
+        10% 15%,
+        22% 30%,
+        35% 38%,
+        48% 42%,
+        60% 38%,
+        73% 30%,
+        86% 15%,
+        100% 0%,
+        92% 55%,
+        82% 70%,
+        70% 58%,
+        58% 82%,
+        46% 62%,
+        34% 82%,
+        22% 58%,
+        10% 70%
     );
 }
 /* head */
