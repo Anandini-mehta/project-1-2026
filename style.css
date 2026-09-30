@@ -23,7 +23,7 @@ body {
 a {
     color: inherit;
     text-decoration: none;
-}
+} 
 
 
 /* =========================
@@ -754,7 +754,7 @@ a {
         grid-template-columns: 1fr;
         gap: 20px;
         margin-top: 70px;
-    }
+    } 
 
     .about-text {
         padding-top: 20px;
@@ -808,4 +808,11 @@ a {
         flex-direction: column;
         gap: 10px;
     }
+} 
+
+.project-doll-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    display: block;
 }
