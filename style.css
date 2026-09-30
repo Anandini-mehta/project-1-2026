@@ -815,5 +815,5 @@ a {
     height: 700px;
     object-fit: contain;
     display: block;
-    transform: translateX(-80px,-200px);
+    transform: translateX(30px,-500px);
 }
