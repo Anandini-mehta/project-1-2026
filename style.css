@@ -271,16 +271,6 @@ a {
     overflow: hidden;
 }
 
-.hair-top {
-    position: absolute;
-    width: 135px;
-    height: 70px;
-    top: -10px;
-    left: -5px;
-    background: #493635;
-    border-radius: 50% 50% 45% 20%;
-}
-
 .face {
     position: absolute;
     width: 100%;
