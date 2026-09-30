@@ -238,14 +238,14 @@ a {
 
 .hair-back {
     position: absolute;
-    width: 155px;
-    height: 190px;
-    left: 48px;
-    top: 35px;
+    width: 175px;
+    height: 300px;
+    left: 38px;
+    top: 25px;
     background: #493635;
-    border-radius: 50% 50% 42% 48%;
+    border-radius: 50% 50% 45% 45%;
+    z-index: 0;
 }
-
 
 /* head */
 
@@ -278,19 +278,48 @@ a {
 
 .eye {
     position: absolute;
-    width: 6px;
-    height: 8px;
+    width: 10px;
+    height: 13px;
     background: #302b2b;
     border-radius: 50%;
-    top: 72px;
+    top: 69px;
+    z-index: 6;
 }
 
 .left-eye {
-    left: 38px;
+    left: 32px;
 }
 
 .right-eye {
-    right: 38px;
+    right: 32px;
+} 
+
+.glasses {
+    position: absolute;
+    width: 42px;
+    height: 31px;
+    border: 2px solid #302b2b;
+    border-radius: 50%;
+    top: 60px;
+    z-index: 7;
+}
+
+.left-glasses {
+    left: 15px;
+}
+
+.right-glasses {
+    right: 15px;
+}
+
+.glasses-bridge {
+    position: absolute;
+    width: 14px;
+    height: 2px;
+    background: #302b2b;
+    top: 74px;
+    left: 55px;
+    z-index: 7;
 }
 
 .nose {
