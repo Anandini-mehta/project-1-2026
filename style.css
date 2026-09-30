@@ -238,14 +238,68 @@ a {
 
 .hair-back {
     position: absolute;
-    width: 175px;
-    height: 300px;
-    left: 38px;
-    top: 25px;
-    background: #493635;
-    border-radius: 50% 50% 45% 45%;
+    width: 190px;
+    height: 325px;
+    left: 30px;
+    top: 18px;
+    background: #6b4636;
+    border-radius: 48% 52% 42% 42%;
     z-index: 0;
 }
+
+.hair-front {
+    position: absolute;
+    width: 175px;
+    height: 120px;
+    left: 37px;
+    top: 22px;
+    background: #6b4636;
+    border-radius: 50% 50% 35% 35%;
+    z-index: 4;
+} 
+
+.hair-layer {
+    position: absolute;
+    background: #6b4636;
+    z-index: 5;
+    border-radius: 50%;
+}
+
+.hair-layer.left {
+    width: 42px;
+    height: 190px;
+    left: 30px;
+    top: 75px;
+    transform: rotate(7deg);
+}
+
+.hair-layer.right {
+    width: 42px;
+    height: 190px;
+    right: 30px;
+    top: 75px;
+    transform: rotate(-7deg);
+}
+
+.face-frame {
+    position: absolute;
+    width: 25px;
+    height: 85px;
+    background: #6b4636;
+    border-radius: 50%;
+    top: 92px;
+    z-index: 6;
+}
+
+.face-frame.left {
+    left: 48px;
+    transform: rotate(10deg);
+}
+
+.face-frame.right {
+    right: 48px;
+    transform: rotate(-10deg);
+} 
 
 /* head */
 
