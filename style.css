@@ -815,4 +815,11 @@ a {
     height: 150px;
     object-fit: contain;
     display: block;
+} 
+.project-doll-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    display: block;
+    transform: translateX(60px);
 }
