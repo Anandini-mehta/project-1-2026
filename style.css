@@ -247,6 +247,25 @@ a {
     z-index: 0;
 }  
 
+.front-layer {
+    position: absolute;
+    width: 20px;
+    height: 165px;
+    background: #6b4636;
+    border-radius: 50%;
+    top: 82px;
+    z-index: 5;
+}
+
+.front-layer.left {
+    left: 54px;
+    transform: rotate(5deg);
+}
+
+.front-layer.right {
+    right: 54px;
+    transform: rotate(-5deg);
+}
 /* head */
 
 .head {
