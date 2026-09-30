@@ -246,26 +246,56 @@ a {
     border-radius: 48% 48% 35% 35%;
     z-index: 0;
 }  
+/* wavy front hair */
 
-.front-layer {
+.wave {
     position: absolute;
-    width: 20px;
-    height: 165px;
+    width: 32px;
+    height: 175px;
     background: #6b4636;
-    border-radius: 50%;
-    top: 82px;
     z-index: 5;
+    border-radius: 50%;
 }
 
-.front-layer.left {
-    left: 54px;
-    transform: rotate(5deg);
+.left-wave {
+    left: 47px;
+    top: 78px;
+    transform: rotate(8deg);
 }
 
-.front-layer.right {
-    right: 54px;
-    transform: rotate(-5deg);
+.right-wave {
+    right: 47px;
+    top: 78px;
+    transform: rotate(-8deg);
 }
+
+
+/* short side-swept bangs */
+
+.side-bang {
+    position: absolute;
+    width: 18px;
+    height: 65px;
+    background: #6b4636;
+    z-index: 6;
+    border-radius: 60% 40% 60% 40%;
+}
+
+.left-bang {
+    left: 70px;
+    top: 48px;
+    transform: rotate(35deg);
+    transform-origin: top center;
+}
+
+.right-bang {
+    right: 70px;
+    top: 48px;
+    transform: rotate(-35deg);
+    transform-origin: top center;
+}
+
+
 /* head */
 
 .head {
