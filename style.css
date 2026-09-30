@@ -235,7 +235,7 @@ a {
 
 
 /* =========================
-   LONG BROWN HAIR + SOFT FRINGE
+   SIMPLE LONG HAIR
    ========================= */
 
 .hair-back {
@@ -249,99 +249,29 @@ a {
     z-index: 0;
 }
 
-/* soft, shaped forehead fringe */
+/* simple forehead fringe */
 
 .bang {
     position: absolute;
+    width: 100px;
+    height: 42px;
+    left: 75px;
+    top: 43px;
     background: #6b4636;
     z-index: 5;
-    top: 43px;
-}
 
-/* left side of fringe */
-
-.bang-left {
-    width: 42px;
-    height: 70px;
-    left: 59px;
-    clip-path: polygon(
-        100% 0,
-        82% 14%,
-        68% 30%,
-        55% 48%,
-        38% 68%,
-        15% 88%,
-        0 100%,
-        18% 60%,
-        35% 28%,
-        55% 8%
-    );
-    transform: rotate(-7deg);
-}
-
-/* left-middle piece */
-
-.bang-center-left {
-    width: 35px;
-    height: 62px;
-    left: 87px;
-    top: 40px;
-    clip-path: polygon(
-        100% 0,
-        88% 18%,
-        76% 38%,
-        63% 58%,
-        48% 78%,
-        30% 100%,
-        8% 92%,
-        25% 60%,
-        42% 32%,
-        58% 10%
-    );
-    transform: rotate(2deg);
-}
-
-/* right-middle piece */
-
-.bang-center-right {
-    width: 35px;
-    height: 62px;
-    right: 87px;
-    top: 40px;
     clip-path: polygon(
         0 0,
-        12% 18%,
-        24% 38%,
-        37% 58%,
-        52% 78%,
-        70% 100%,
-        92% 92%,
-        75% 60%,
-        58% 32%,
-        42% 10%
+        8% 45%,
+        18% 65%,
+        30% 48%,
+        42% 78%,
+        55% 52%,
+        68% 76%,
+        80% 48%,
+        92% 62%,
+        100% 0
     );
-    transform: rotate(-2deg);
-}
-
-/* right side of fringe */
-
-.bang-right {
-    width: 42px;
-    height: 70px;
-    right: 59px;
-    clip-path: polygon(
-        0 0,
-        18% 14%,
-        32% 30%,
-        45% 48%,
-        62% 68%,
-        85% 88%,
-        100% 100%,
-        82% 60%,
-        65% 28%,
-        45% 8%
-    );
-    transform: rotate(7deg);
 }
 /* head */
 
