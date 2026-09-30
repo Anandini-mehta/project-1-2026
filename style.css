@@ -250,12 +250,12 @@ a {
 .hair-front {
     position: absolute;
     width: 145px;
-    height: 90px;
+    height: 70px;
     left: 52px;
-    top: 20px;
+    top: 8px;
     background: #6b4636;
-    border-radius: 55% 55% 30% 30%;
-    z-index: 2;
+    border-radius: 55% 55% 0 0;
+    z-index: 1;
 } 
 
 /* head */
