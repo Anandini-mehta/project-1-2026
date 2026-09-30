@@ -810,10 +810,10 @@ a {
     }
 } 
  
-.project-doll-image { 
+.project-doll-image {
     width: 700px;
     height: 700px;
     object-fit: contain;
     display: block;
-    transform: translateX(200x,-2000px);
+    transform: translate(200px, -200px);
 }
