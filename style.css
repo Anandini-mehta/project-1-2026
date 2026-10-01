@@ -126,18 +126,8 @@ a {
     position: relative;
     min-height: 100vh;
     overflow: hidden;
+    background: #f8f3ed;
 
-    background:
-    linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 0.94),
-        rgba(235, 247, 248, 0.78)
-    ),
-    url("hospital-bg.jpg");
-
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
     display: flex;
     align-items: center;
 }
