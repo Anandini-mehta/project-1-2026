@@ -375,7 +375,7 @@ a {
 .project-main {
     width: 430px;
     min-height: 430px;
-    left: 8%;
+    left: -2%;
     top: 20px;
     transform: rotate(-3deg);
 }
@@ -383,14 +383,14 @@ a {
 .project-small {
     width: 280px;
     min-height: 260px;
-    right: 12%;
+    right: 30%;
     top: 0;
     transform: rotate(5deg);
 }
 
 .project-small.second {
     top: 320px;
-    right: 25%;
+    right: 43%;
     transform: rotate(-4deg);
     background: #e7d8d2;
 }
