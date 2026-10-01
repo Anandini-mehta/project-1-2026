@@ -837,8 +837,8 @@ a {
 
 .contact-image {
     position: absolute;
-    width: 320px;
-    height: 320px;
+    width: 550px;
+    height: 550px;
     object-fit: contain;
     right: 10%;
     top: 22%;
