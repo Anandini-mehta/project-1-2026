@@ -774,19 +774,28 @@ a {
     }
 
     .project-main {
-        width: 85%;
-        left: 2%;
-    }
+    width: 430px;
+    min-height: 430px;
+    left: 2%;
+    top: 20px;
+    transform: rotate(-3deg);
+}
 
-    .project-small {
-        right: 2%;
-        top: 500px;
-    }
+.project-small {
+    width: 280px;
+    min-height: 260px;
+    right: 20%;
+    top: 0;
+    transform: rotate(5deg);
+}
 
-    .project-small.second {
-        right: 10%;
-        top: 750px;
-    }
+.project-small.second {
+    top: 320px;
+    right: 33%;
+    transform: rotate(-4deg);
+    background: #e7d8d2;
+}
+    
 
     .mini-character {
         display: none;
