@@ -826,3 +826,13 @@ a {
     display: block;
     transform: translate(200px, -220px);
 }
+
+/* CONTACT DOLL */
+
+.contact-image {
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+    display: block;
+    margin: 20px auto;
+}
