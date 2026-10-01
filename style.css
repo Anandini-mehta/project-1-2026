@@ -136,6 +136,7 @@ a {
     position: relative;
     z-index: 5;
     width: 50%;
+    margin-left: 10%;
 }
 
 .small-intro {
