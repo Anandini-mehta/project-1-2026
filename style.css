@@ -230,8 +230,8 @@ a {
 
 .character {
     position: absolute;
-    width: 340px;
-    height: 580px;
+    width: 420px;
+    height: 680px;
     left: 25px;
     bottom: 10px;
     animation: characterFloat 4s ease-in-out infinite;
