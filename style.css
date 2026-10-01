@@ -829,10 +829,17 @@ a {
 
 /* CONTACT DOLL */
 
+/* CONTACT DOLL */
+
+.contact {
+    position: relative;
+}
+
 .contact-image {
-    width: 220px;
-    height: 220px;
+    position: absolute;
+    width: 320px;
+    height: 320px;
     object-fit: contain;
-    display: block;
-    margin: 20px auto;
+    right: 10%;
+    top: 22%;
 }
