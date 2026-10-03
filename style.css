@@ -826,7 +826,7 @@ a {
     height: 700px;
     object-fit: contain;
     display: block;
-    transform: translate(200px, -220px);
+    transform: translate(200px, -200px);
 }
 
 /* CONTACT DOLL */
