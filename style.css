@@ -920,12 +920,15 @@ a {
         transform: none;
     }
 
-    .project-doll-image {
-        width: min(55vw, 220px);
-        height: auto;
+.project-doll-image {
+    width: 330px;
+    height: 330px;
+    object-fit: contain;
+    display: block;
 
-        transform: none;
-    }
+    transform: translate(35px, -35px);
+}
+
 
 
     /* =========================
